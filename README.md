@@ -15,7 +15,7 @@ Check out the [example](example.tex) or:
 
 \begin{document}
 
-This is the a \LaTeX~version of the \julia~logo. Here is a Large version: {\Large \julia}.
+This is a \LaTeX~version of the \julia~logo. Here is a Large version: {\Large \julia}.
 
 \end{document}
 ```
