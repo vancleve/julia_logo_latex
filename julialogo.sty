@@ -12,6 +12,7 @@
 
 \RequirePackage{fontspec}
 \RequirePackage{tikz}
+\RequirePackage{xspace}
 \usetikzlibrary{positioning}
 \usetikzlibrary{calc}
 
@@ -47,7 +48,7 @@
 \path let \p1 = (i) in node[juliadot={mylightred,mydarkred}] (reddot) at (\x1+0.02ex,1.305ex) {};
 \path let \p1 = (reddot) in node[juliadot={mylightpurple,mydarkpurple}] (purpledot) at (\x1+0.52ex,\y1) {};
 \path let \p1 = (reddot) in node[juliadot={mylightgreen,mydarkgreen}] (greendot) at (\x1+0.26ex,\y1+0.45ex) {};
-\end{tikzpicture}%
+\end{tikzpicture}\xspace%
 }
 
 \endinput
