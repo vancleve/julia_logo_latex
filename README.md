@@ -8,6 +8,8 @@ Note that this package requires the LaTeX package `fontspec` and usage of `luala
 
 ## Usage
 
+Fonts for the logo are include in the `fonts/` directory and should be installed so that `lualatex` or `xelatex` can find them.
+
 Check out the [example](example.tex) or:
 
 ``` latex
